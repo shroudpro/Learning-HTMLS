@@ -31,14 +31,4 @@
 - HTML 中使用相对路径引用同一页面的资源；.gltf 所引用的贴图和二进制文件也要一并保留原有相对目录。
 - GitHub Pages 的路径区分大小写。目录名、文件名和 HTML 中的引用必须完全一致。
 
-## GitHub Pages 链接格式
-
-部署后，每个页面都可单独访问：
-
-https://&lt;用户名&gt;.github.io/&lt;仓库名&gt;/demos/&lt;demo目录&gt;/
-
-例如：
-
-https://&lt;用户名&gt;.github.io/&lt;仓库名&gt;/demos/ml-ch01-intro/
-
-仓库首页导航位于上一级的 [index.html](../index.html)。GitHub Pages 的 **.nojekyll** 文件应放在仓库根目录。
+#
