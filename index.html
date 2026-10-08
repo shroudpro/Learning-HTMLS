@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <title>交互学习页面</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #101827;
+      color: #e7edf7;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+
+    header { margin-bottom: 32px; }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 6vw, 3rem);
+      letter-spacing: -0.04em;
+    }
+
+    header p { margin: 0; color: #a8b5c9; }
+
+    section { margin-top: 30px; }
+
+    h2 {
+      margin-bottom: 14px;
+      font-size: 1.15rem;
+      color: #9bc7ff;
+    }
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+      gap: 12px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    a {
+      display: block;
+      min-height: 58px;
+      padding: 17px 18px;
+      border: 1px solid #2a3a51;
+      border-radius: 14px;
+      background: #172438;
+      color: #edf4ff;
+      text-decoration: none;
+      transition: border-color 140ms ease, background 140ms ease, transform 140ms ease;
+    }
+
+    a:hover, a:focus-visible {
+      border-color: #69aaff;
+      background: #1d304a;
+      outline: none;
+      transform: translateY(-1px);
+    }
+
+    a:focus-visible { box-shadow: 0 0 0 3px #69aaff55; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>交互学习页面</h1>
+      <p>选择一个专题，打开对应的学习页面。</p>
+    </header>
+
+    <section aria-labelledby="ml-title">
+      <h2 id="ml-title">模式识别与机器学习</h2>
+      <ul>
+        <li><a href="./demos/ml-ch01-intro/">第 1 章：绪论</a></li>
+        <li><a href="./demos/ml-ch02-statistical-decision/">第 2 章：统计决策理论</a></li>
+        <li><a href="./demos/ml-ch03-density-estimation/">第 3 章：概率密度函数估计</a></li>
+        <li><a href="./demos/ml-ch04-linear-models/">第 4 章：线性模型</a></li>
+        <li><a href="./demos/ml-ch05-neural-networks/">第 5 章：人工神经网络</a></li>
+        <li><a href="./demos/ml-ch06-nonparametric/">第 6 章：非参数模型</a></li>
+        <li><a href="./demos/ml-ch07-unsupervised/">第 7 章：非监督学习</a></li>
+        <li><a href="./demos/ml-ch08-feature-space/">第 8 章：特征空间的构建与优化</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="comms-title">
+      <h2 id="comms-title">通信原理</h2>
+      <ul>
+        <li><a href="./demos/comms-ch01-intro/">第一章：绪论</a></li>
+        <li><a href="./demos/comms-ch02-signals/">第二章：确定信号分析</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
