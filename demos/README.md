@@ -1,6 +1,6 @@
 # Demo HTML 页面总览
 
-本目录包含 12 个独立的交互学习页面。每个 demo 都以自己的 **index.html** 为入口。
+本目录包含 13 个独立的交互学习页面。每个 demo 都以自己的 **index.html** 为入口。
 
 ## 页面索引
 
@@ -23,6 +23,7 @@
 | --- | --- | --- |
 | 第一章 | 绪论 | [打开页面](./comms-ch01-intro/index.html) |
 | 第二章 | 确定信号分析 | [打开页面](./comms-ch02-signals/index.html) |
+| 第三章 | 随机过程 | [打开页面](./comms-ch03-random-process/index.html) |
 
 ### 信息论
 
